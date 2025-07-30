@@ -1,0 +1,6 @@
+// Updates the geometry of the point based on the values in the new coordinate fields. Sets the spatial reference as NAD83 UTM12.
+Point({ 
+  x: $feature.NewX, 
+  y: $feature.NewY, 
+  spatialReference: { wkid: 26911 } 
+}); 

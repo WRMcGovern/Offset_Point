@@ -1,0 +1,2 @@
+// Take's the current X coordinate and calculates the change in the point based on the Distance and Bearing.
+$feature.OldX + sin($feature.Bearing*(3.14/180))  * $feature.Distance 

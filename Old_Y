@@ -1,0 +1,2 @@
+// Take's the geometry of the feature and add's it to the Y field.
+Geometry($feature).Y

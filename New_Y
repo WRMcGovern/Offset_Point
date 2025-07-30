@@ -1,0 +1,2 @@
+// Take's the current Y coordinate and calculates the change in the point based on the Distance and Bearing.
+$feature.OldY + cos($feature.Bearing*(3.14/180))  * $feature.Distance 
